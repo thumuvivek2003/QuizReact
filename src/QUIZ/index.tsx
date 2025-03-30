@@ -135,15 +135,9 @@ const Quiz: React.FC = () => {
       style={{ borderWidth: 1, borderColor: "white" }}
     >
       <div className="quiz-header">
-        {/* <div className="quiz-progress">
-          <div className="progress-text">Question {currentQuestionIndex}/{totalQuestions}</div>
-          <div className="progress-bar">
-            <div 
-              className="progress-fill" 
-              style={{ width: `${(currentQuestionIndex / totalQuestions) * 100}%` }}
-            ></div>
-          </div>
-        </div> */}
+        <div className="quiz-progress">
+          <div className="progress-text">Developed by the JCVC Tech Team</div>
+        </div>
         <button
           className="sound-button"
           onClick={toggleMusic}
