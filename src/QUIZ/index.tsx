@@ -3,7 +3,7 @@ import { Howl } from "howler";
 import "./Quiz.css";
 import Bgm from "../assets/quiz-sounds/bg.mp3";
 import Correct from "./correct";
-import Wrong from "./wrong.tsx";
+import Wrong from "./wrong";
 import { FaMusic, FaVolumeMute, FaCheck, FaClock } from "react-icons/fa";
 import axios from "axios";
 import { IoMdHelpCircle } from "react-icons/io";
